@@ -1,0 +1,17 @@
+伝言板
+<P id="伝言エリア">伝言はまだありません</P>
+<input id="入力内容"><button onclick="伝言する();">SET</button>
+
+<script>
+     function 伝言する(){
+     if(入力内容.value===""){
+         alert("内容をいれてください")
+     }else{
+     伝言エリア.innerText=入力内容.value; 入力内容.value="";
+      alert("伝言をセットしました");
+      }
+     }
+    
+</script>
+   
+
